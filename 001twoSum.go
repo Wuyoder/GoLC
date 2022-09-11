@@ -20,7 +20,6 @@ func twoSum(nums []int, target int) []int {
 }
 
 func main() {
-	fmt.Println("TwoSum")
-	fmt.Println(twoSum(nums, target))
+	fmt.Println(twoSum(nums, target)) // [0 ,1]
 
 }
