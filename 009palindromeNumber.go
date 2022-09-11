@@ -1,11 +1,10 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 )
 
-func palindromeNumber(x int) bool {
+func isPalindrome(x int) bool {
 	if x < 0 {
 		return false
 	}
@@ -17,9 +16,9 @@ func palindromeNumber(x int) bool {
 	return true
 }
 
-func main() {
-	fmt.Println(palindromeNumber(123))  // false
-	fmt.Println(palindromeNumber(-121)) //false
-	fmt.Println(palindromeNumber(121))  // true
+// func main() {
+// 	fmt.Println(isPalindrome(123))  // false
+// 	fmt.Println(isPalindrome(-121)) //false
+// 	fmt.Println(isPalindrome(121))  // true
 
-}
+// }
